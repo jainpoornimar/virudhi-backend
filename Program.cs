@@ -22,7 +22,6 @@ builder.Services.AddControllers()
         options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
     });
 
-builder.Services.AddOpenApi();
 
 // DB Context
 builder.Services.AddDbContext<HerbalCareDbContext>(options =>
@@ -66,10 +65,7 @@ builder.Services.AddAuthentication(options =>
 var app = builder.Build();
 
 // Pipeline
-if (app.Environment.IsDevelopment())
-{
-    app.MapOpenApi();
-}
+
 
 app.UseHttpsRedirection();
 
