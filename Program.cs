@@ -24,8 +24,8 @@ builder.Services.AddControllers()
 
 
 // DB Context
-builder.Services.AddDbContext<HerbalCareDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+//builder.Services.AddDbContext<HerbalCareDbContext>(options =>
+    //options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // CORS
 builder.Services.AddCors(options =>
