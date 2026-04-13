@@ -25,16 +25,17 @@ builder.Services.AddControllers()
 
 // DB Context
 //builder.Services.AddDbContext<HerbalCareDbContext>(options =>
-    //options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+//options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // CORS
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowFrontend", policy =>
     {
-        policy.WithOrigins("http://localhost:5173")
-              .AllowAnyHeader()
-              .AllowAnyMethod();
+        policy
+            .AllowAnyOrigin()   // 🔥 TEMP FIX (works immediately)
+            .AllowAnyHeader()
+            .AllowAnyMethod();
     });
 });
 
