@@ -1,0 +1,6 @@
+@HerbalMedicalCare_HostAddress = http://localhost:5065
+
+GET {{HerbalMedicalCare_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
