@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HerbalMedicalCare")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0842af72fbc758afa5c18f2917711b7d75b5e644")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+21d3a988afe70e62270c2577fb5345cfa09cc458")]
 [assembly: System.Reflection.AssemblyProductAttribute("HerbalMedicalCare")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HerbalMedicalCare")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
